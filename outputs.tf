@@ -3,14 +3,14 @@ output "VPC_ID" {
 }
 
 output "VPC_CIDR" {
-  value =  module.vpc.VPC_CIDR
+  value = module.vpc.VPC_CIDR
 }
 
 output "SUBNET_IDS" {
-  value =  module.vpc.SUBNET_IDS
+  value = module.vpc.SUBNET_IDS
 }
 
 output "SUBNET_CIDR" {
-  value = a module.vpc.SUBNET_CIDR
+  value = module.vpc.SUBNET_CIDR
 }
 
