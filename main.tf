@@ -18,4 +18,7 @@ module "documentdb" {
   NODE_COUNT          = var.NODE_COUNT
   FAMILY              = var.FAMILY
   SKIP_FINAL_SNAPSHOT = var.SKIP_FINAL_SNAPSHOT
+  VPC_ID              = module.vpc.VPC_ID
+  VPC_CIDR            = module.vpc.VPC_CIDR
+  SUBNET_IDS          = module.vpc.SUBNET_IDS
 }
