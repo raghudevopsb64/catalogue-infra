@@ -8,3 +8,8 @@ NODE_TYPE           = "db.t3.medium"
 NODE_COUNT          = 1
 FAMILY              = "docdb4.0"
 SKIP_FINAL_SNAPSHOT = true
+
+EC2_NODE_TYPE           = "t3.micro"
+PORT                    = 8080
+ONDEMAND_INSTANCE_COUNT = 0
+SPOT_INSTANCE_COUNT     = 1
