@@ -39,4 +39,5 @@ module "app" {
   VPC_ACCESS_TO_ALB       = [module.vpc.VPC_CIDR]
   DOCDB_ENDPOINT          = module.documentdb.DOCDB_ENDPOINT
   IAM_POLICY_CREATE       = true
+  PRIVATE_HOSTED_ZONE_ID  = module.vpc.PRIVATE_HOSTED_ZONE_ID
 }
