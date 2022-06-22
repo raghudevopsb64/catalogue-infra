@@ -42,4 +42,5 @@ module "app" {
   DOCDB_ENDPOINT          = module.documentdb.DOCDB_ENDPOINT
   IAM_POLICY_CREATE       = true
   PRIVATE_HOSTED_ZONE_ID  = module.vpc.PRIVATE_HOSTED_ZONE_ID
+  PROMETHEUS_IP           = var.PROMETHEUS_IP
 }
