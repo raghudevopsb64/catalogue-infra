@@ -17,3 +17,4 @@ variable "ONDEMAND_INSTANCE_COUNT" {}
 variable "SPOT_INSTANCE_COUNT" {}
 variable "WORKSTATION_IP" {}
 variable "PROMETHEUS_IP" {}
+variable "APP_VERSION" {}
