@@ -27,7 +27,7 @@ module "documentdb" {
 
 module "app" {
   depends_on              = [module.vpc]
-  source                  = "git::https://github.com/raghudevopsb64/tf-modfule-mutable.git"
+  source                  = "git::https://github.com/raghudevopsb64/tf-modfule-immutable.git"
   ONDEMAND_INSTANCE_COUNT = var.ONDEMAND_INSTANCE_COUNT
   SPOT_INSTANCE_COUNT     = var.SPOT_INSTANCE_COUNT
   VPC_ID                  = module.vpc.VPC_ID
