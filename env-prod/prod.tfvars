@@ -9,7 +9,10 @@ NODE_COUNT          = 1
 FAMILY              = "docdb4.0"
 SKIP_FINAL_SNAPSHOT = true
 
-EC2_NODE_TYPE           = "t3.micro"
-PORT                    = 8080
-ONDEMAND_INSTANCE_COUNT = 0
-SPOT_INSTANCE_COUNT     = 2
+EC2_NODE_TYPE = "t3.micro"
+PORT          = 8080
+//ONDEMAND_INSTANCE_COUNT = 0
+//SPOT_INSTANCE_COUNT     = 2
+CAPACITY_NODES = 2
+MIN_NODES      = 2
+MAX_NODES      = 3
