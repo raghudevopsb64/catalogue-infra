@@ -46,4 +46,5 @@ module "app" {
   CAPACITY_NODES         = var.CAPACITY_NODES
   MIN_NODES              = var.MIN_NODES
   MAX_NODES              = var.MAX_NODES
+  APP_VERSION            = var.APP_VERSION
 }
